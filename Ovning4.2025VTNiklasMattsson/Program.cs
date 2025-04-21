@@ -74,7 +74,7 @@ class Program
         bool isAlive = true;
         do
         {
-            Console.WriteLine("Please navigate through the menu by inputting\n(+, -, 3)"
+            Console.WriteLine("Please navigate through the menu by inputting\n(+, -, e)"
                 + "\n+ Add item to list"
                 + "\n-. remove item from list"
                 + "\ne. exít to main menue");
@@ -158,7 +158,7 @@ class Program
         bool isAlive = true;
         do
         {
-            Console.WriteLine("Please navigate through the menu by inputting\n(+, -, 3)"
+            Console.WriteLine("Please navigate through the menu by inputting\n(+, -, *, 1, 2, e)"
                 + "\n+. Add item to queue"
                 + "\n-. remove item from queue"
                 + "\n*. Clear queue and simulate prepared queue"
@@ -217,7 +217,7 @@ class Program
                     isAlive = false;
                     break;
                 default:
-                    Console.WriteLine("Please enter some valid input (+, -, e)");
+                    Console.WriteLine("Please enter some valid input (+, -, *, 1, 2, e)");
                     break;
             }
         } while (isAlive);
